@@ -1,0 +1,200 @@
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.headerNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 15px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+  background-image: url("../../img/svg/logo.svg");
+  width: 46px;
+  height: 46px;
+}
+
+.text {
+  background-image: url("../../img/svg/Group18.svg");
+  width: 105px;
+  height: 16px;
+  display: none;
+}
+
+.burgerBtn {
+  background-image: url("../../img/svg/burgerMenu.svg");
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+}
+
+.burgerClose {
+  background-image: url("../../img/svg/BurgerClose.svg");
+  width: 20px;
+  height: 14px;
+  margin-right: 14px;
+}
+
+.burgerBtn1 {
+  border: none;
+  background-color: transparent;
+}
+
+.regisrationList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #9b9faa;
+  text-decoration: none;
+}
+
+.linkActive {
+  color: #212121;
+}
+
+.linkActiveWhite {
+  color: white;
+}
+
+.link:hover,
+.link:focus {
+  color: #212121;
+}
+
+.regisrationListItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.navigationListItem {
+  display: none;
+}
+
+.linkBurger {
+  text-decoration: none;
+  color: #9b9faa;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.listBurger {
+  text-align: center;
+}
+
+.listBurgerItem {
+  margin-top: 30px;
+}
+
+.linkBurger:hover,
+.linkBurger:focus {
+  color: white;
+}
+
+.linkActiveWhite {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .headerNavigation {
+    padding-left: 70px;
+    padding-right: 88px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .text {
+    display: block;
+  }
+
+  .listLogo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .linkBurger {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .linkBurger:hover,
+  .linkBurger:focus {
+    color: white;
+  }
+
+  .listBurger {
+    margin-top: 104px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      display: flex;
+    }
+
+    .headerNavigation {
+      justify-content: normal;
+      border-bottom: none;
+      padding: 0px 225px 0px 90px;
+
+      min-width: 745px;
+      width: 100%;
+    }
+
+    .listLogo {
+      margin-top: 82px;
+      margin-right: 0px;
+    }
+
+    .regisrationList {
+      margin-top: 82px;
+    }
+
+    .regisrationListItem:not(:last-child) {
+      border-left: 2px solid #e0e0e0;
+      padding-left: 22px;
+      margin-left: 22px;
+    }
+
+    .navigationListItem {
+      display: block;
+    }
+
+    .navigationListItem:not(:last-child) {
+      margin-right: 15px;
+      border-left: 2px solid #e0e0e0;
+      padding-left: 22px;
+      margin-left: 22px;
+    }
+    .logo {
+      width: 70px;
+      height: 66px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 6px -15px;
+    }
+
+    .burgerBtn {
+      display: none;
+    }
+  }
+}

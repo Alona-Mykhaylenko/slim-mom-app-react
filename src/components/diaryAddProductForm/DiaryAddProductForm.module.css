@@ -1,0 +1,124 @@
+@media (min-width: 320px) {
+  .productInput {
+    width: 290px;
+    border-color: transparent;
+    color: #9b9faa;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    border-bottom: 1px solid #e0e0e0;
+
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+
+  .weightInput {
+    border: transparent;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 19px;
+    width: 104px;
+    text-align: left;
+    color: #9b9faa;
+    width: 290px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    margin-bottom: 30px;
+  }
+
+  .productForm {
+    display: block;
+  }
+
+  .formButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fc842d;
+    border: 2px solid #fc842d;
+    color: #fff;
+    font-size: 32px;
+    box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  }
+
+  .formAddButton {
+    background: #fc842d;
+    box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+    border-radius: 30px;
+    border: none;
+    width: 176px;
+    height: 44px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: white;
+  }
+}
+
+
+.productResultList {
+  width: 295px;
+  max-height: 300px;
+  position: absolute;
+  background: white;
+  overflow-y: scroll;
+}
+.productResultListItem {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.productResultListItem:hover {
+  background-color: dimgray;
+}
+
+@media (min-width: 768px) {
+  .productForm {
+    display: block;
+  }
+
+  .productLabel {
+    margin-right: 30px;
+  }
+
+  
+
+  .productInput {
+    border: transparent;
+    border-bottom: 1px solid #e0e0e0;
+    width: 240px;
+    padding-bottom: 19px;
+    margin-bottom: 60px;
+    margin-right: 30px;
+  }
+
+  .weightInput {
+    border: transparent;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 19px;
+    width: 104px;
+    text-align: right;
+  }
+
+  .formButton:hover {
+    background-color: #fc842d;
+    color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  }
+
+  .formAddButton {
+    display: none;
+  }
+
+  .break {
+    display: none;
+  }
+}

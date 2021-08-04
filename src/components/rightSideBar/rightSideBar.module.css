@@ -1,0 +1,117 @@
+/* .userInfoBar {
+  display: none;
+} */
+
+.RightSideBarProducts {
+  height: 77px;
+  overflow: scroll;
+  color: #9b9faa;
+}
+/* контейнер общий */
+
+.RightSideBarContainer {
+  padding: 40px 15px;
+  /* margin: 0 auto; */
+  /* max-width: 320px; */
+  /* background-color: #f0f1f3; */
+}
+/* заголовки секций */
+
+.RightSideBarHeader {
+  margin-bottom: 20px;
+  color: #212121;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.21em;
+  letter-spacing: 0.04em;
+}
+
+/* Элементы списков */
+/* .productsList {
+  margin: 0 auto;
+  height: 100vh;
+} */
+
+.RightSideBarItem {
+  font-family: Verdana;
+  font-size: 14px;
+  line-height: 1.21em;
+  letter-spacing: 0.04em;
+  color: #9b9faa;
+}
+
+.RightSideBarItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+/* списки с БЖУ статистикой */
+.RightSideBarStatictics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  max-width: 290px;
+}
+
+@media screen and (min-width: 768px) {
+  .RightSideBarContainer {
+    margin: 0 auto;
+    max-width: 768px;
+    display: flex;
+    padding: 91px 37px 91px 87px;
+    /* background-color: #f0f1f3; */
+    background-image: url("../../img/leavesRotate@1x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 45% left 399px;
+    /* max-width: 768px; */
+  }
+
+  .RightSideBarSummary {
+    width: 330px;
+  }
+
+  .RightSideBarHeader {
+    margin-bottom: 22px;
+  }
+  .RightSideBarStatictics {
+    width: 330px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+  }
+  .RightSideBarProducts {
+    height: 112px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .RightSideBarContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 137px 115px 162px 90px;
+    /* background-color: #f0f1f3; */
+    background-image: url("../../img/rightSideBar@2x.png");
+    background-size: contain;
+    background-position: bottom 75px left 100%;
+    max-width: 535px;
+    /* position: absolute;
+    top: 84px; */
+  }
+
+  .RightSideBarHeader {
+    height: 34px;
+  }
+
+  .RightSideBarStatictics {
+    margin-bottom: 40px;
+  }
+  .RightSideBarListDiet .RightSideBarItem {
+    height: 112px;
+  }
+  /* .userInfoBar {
+    max-width: 535px;
+    display: flex;
+    position: absolute;
+    top: 0px;
+  } */
+}

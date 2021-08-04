@@ -1,0 +1,29 @@
+/* Вход, Начать худеть, Похудеть*/
+.btn-entry {
+  width: 176px;
+  height: 44px;
+  border-radius: 30px;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.04em;
+}
+
+/* Регистрация */
+
+.btn-registration {
+  width: 176px;
+  height: 44px;
+  border-radius: 30px;
+  border: 2px solid var(--accent-color);
+  background-color: var(--white-color);
+  color: var(--accent-color);
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.04em;
+}

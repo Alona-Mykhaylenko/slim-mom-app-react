@@ -1,0 +1,57 @@
+.userInfo {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 320px;
+  padding: 15px 0 13px 0;
+  background-color: #f0f1f3;
+  align-items: center;
+}
+
+.userLogin {
+  padding-right: 22px;
+  margin-right: 22px;
+  color: #212121;
+  border-right: 2px solid #e0e0e0;
+  font-family: "GothamPro-Bold";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.04em;
+}
+
+.exitButton {
+  cursor: pointer;
+  margin-right: 15px;
+  border: none;
+  background-color: inherit;
+  color: #9b9faa;
+  font-family: "GothamPro-Bold";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.04em;
+}
+
+@media screen and (min-width: 768px) {
+  .userInfo {
+    background-color: white;
+  }
+  @media screen and (min-width: 1280px) {
+    .userInfo {
+      min-width: 535px;
+      display: flex;
+      margin-left: 233px;
+      background-color: #f0f1f3;
+      padding: 134px 115px 5px 204px;
+    }
+
+    .userLogin {
+      margin-bottom: 30px;
+    }
+    .exitButton {
+      margin-bottom: 30px;
+      margin-right: 0;
+    }
+  }
+}

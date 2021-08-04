@@ -1,0 +1,232 @@
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 14px;
+  line-height: 0.93;
+  letter-spacing: 0.04em;
+  position: relative;
+  width: 100vw;
+}
+
+.formContainer {
+  margin-top: 83px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.authTitle {
+  font-family: "GothamPro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.92em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: #fc842d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 290px;
+}
+
+.input {
+  font-family: "Verdana-Bold";
+  border-bottom: 1px solid rgb(224, 224, 224);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 15px 15px 15px 0px;
+  width: 290px;
+  font-size: 14px;
+  line-height: 1.21em;
+  letter-spacing: 0.04em;
+  color: #9b9faa;
+  outline: none;
+  background-color: white;
+}
+
+.eyeIcon {
+  fill: #9b9faa;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.eyeIconBtn {
+  background-color: transparent;
+  position: absolute;
+  top: 255px;
+  right: 15px;
+  border-radius: 50%;
+  border: none;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.buttonContainer {
+  display: flex;
+  margin: 60px auto 0;
+  flex-direction: column;
+  height: 108px;
+  justify-content: space-between;
+}
+
+.authButton {
+  background: #fc842d;
+  box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  border-radius: 30px;
+  border: none;
+  width: 176px;
+  height: 44px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: white;
+}
+
+.authButton:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.authLink {
+  background: #ffffff;
+  border: 2px solid #fc842d;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 176px;
+  height: 44px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #fc842d;
+}
+
+.authLink:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 87px;
+
+    display: block;
+    z-index: 1;
+    width: inherit;
+
+    height: 100vh;
+    background-size: cover;
+    top: 0;
+    background: url(../../img/leavesLoginTablet@1x.png),
+      url(../../img/strawberry@1x.png), url(../../img/banana@1x.png),
+      url(../../img/spot.png);
+
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: -5px -195px, 435px 315px, 210px 540px, 165px 281px;
+
+    width: 768px;
+    padding-left: 87px;
+    align-items: flex-start;
+    padding-top: 157px;
+  }
+
+  .navContainer {
+    width: 768px;
+    padding: 71px 348px 287px 173px;
+    align-items: flex-start;
+  }
+
+  .formContainer {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .eyeIconBtn {
+    top: 415px;
+    right: 393px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  .authButton:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 115px;
+
+    position: absolute;
+    z-index: -100;
+    background: url(../../img/leavesLogin@1x.png),
+      url(../../img/strawberry@1x.png), url(../../img/banana@1x.png),
+      url(../../img/spot-login.png);
+
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 256px -46px, right 170px, 740px 341px, right top;
+
+    width: 1280px;
+    padding: 115px 137px 560px 111px;
+  }
+
+  .eyeIconBtn {
+    top: 370px;
+    right: 875px;
+  }
+
+  .navContainer {
+    width: 1280px;
+    padding: 115px;
+    padding-top: 362px;
+  }
+
+  .formContainer {
+    margin-left: 0px;
+    padding: 0px;
+  }
+}

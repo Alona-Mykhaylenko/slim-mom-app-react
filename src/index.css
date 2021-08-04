@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "GothamPro-Bold";
+  src: url("./components/shared/fonts/GothamPro-Bold.woff");
+}
+
+@font-face {
+  font-family: "GothamPro-Light";
+  src: url("./components/shared/fonts/GothamPro-Light.woff");
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("./components/shared/fonts/GothamPro.woff");
+}
+
+@font-face {
+  font-family: "Verdana-Bold";
+  src: url("./components/shared/fonts/Verdana-Bold.woff");
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url("./components/shared/fonts/Verdana.woff");
+}
+
+body {
+  margin: 0;
+  font-family: Verdana;
+  background-color: white;
+  color: black;
+}
+
+input,
+textarea {
+  font: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 4px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 4px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fc842d;
+}

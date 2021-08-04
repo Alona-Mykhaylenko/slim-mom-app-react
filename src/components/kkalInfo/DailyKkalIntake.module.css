@@ -1,0 +1,173 @@
+.moduleDailyNormContainer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .moduleDailyNormContainer {
+    margin-top: 64px;
+    margin-left: 42px;
+    margin-right: 42px;
+  }
+}
+.moduleDailyNormTitle {
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #212121;
+}
+
+@media screen and (min-width: 768px) {
+  .moduleDailyNormTitle {
+    margin-bottom: 22px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+.moduleDailyNormValueCcal {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #264061;
+}
+
+.moduleDailyNormCcal {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #264061;
+}
+
+.moduleNotSuitableProductsContainer {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .moduleNotSuitableProductsContainer {
+    margin-left: 132px;
+    margin-right: 132px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .moduleNotSuitableProductsContainer {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+}
+
+.moduleNotSuitableProductsInput {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 290px;
+  border-style: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+@media screen and (min-width: 768px) {
+  .moduleNotSuitableProductsInput {
+    margin-left: 20px;
+  }
+}
+
+.moduleNotSuitableProductsTitle {
+  padding-left: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #212121;
+}
+
+.moduleNotSuitableProductsList {
+  height: 140px;
+  display: block;
+  width: 20em;
+  overflow: auto;
+}
+
+.moduleNotSuitableProductsList::-webkit-scrollbar {
+  width: 5px;
+
+  background-color: #aaa;
+}
+.moduleNotSuitableProductsList::-webkit-scrollbar-thumb {
+  background-color: #ff6b09;
+}
+
+.moduleNotSuitableProductsItem {
+  width: 260px;
+  margin-top: 22px;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #9b9faa;
+}
+
+.moduleNotSuitableProductsButton {
+  margin-left: 72px;
+  margin-right: 72px;
+  align-items: center;
+  padding: 13px 26px;
+  width: 176px;
+  height: 44px;
+  background: #fc842d;
+  box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  .moduleNotSuitableProductsButton {
+    margin-left: 209px;
+    margin-right: 209px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .moduleNotSuitableProductsButton {
+    margin-left: 257px;
+    margin-right: 257px;
+  }
+}
+
+.moduleNotSuitableProductsButton {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
