@@ -25,7 +25,7 @@ const RegistrationForm = () => {
   return (
     <div className={style.container}>
       <div className={style.formContainer}>
-        <h1 className={style.authTitle}>Регистрация</h1>
+        <h1 className={style.authTitle}>Registration</h1>
         <Formik
           initialValues={InitialState}
           validationSchema={schema}

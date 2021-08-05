@@ -22,7 +22,7 @@ const LoginForm = () => {
   return (
     <div className={style.container}>
       <div className={style.formContainer}>
-        <h1 className={style.authTitle}>Вход</h1>
+        <h1 className={style.authTitle}>SIGN IN</h1>
         <Formik
           initialValues={InitialState}
           validationSchema={schema}

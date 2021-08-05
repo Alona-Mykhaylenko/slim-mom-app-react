@@ -16,9 +16,7 @@ const DailyCaloriesForm = ({
   return (
     <div className={styles.calculator}>
       <div className={!isAuth ? styles.container : styles.container__active}>
-        <h1 className={styles.title}>
-          Find out your daily calory norm
-        </h1>
+        <h1 className={styles.title}>Find out your daily calory norm</h1>
         <div className={styles.inputWrapper}>
           <Formik
             enableReinitialize={enableReinitialize}
@@ -126,7 +124,7 @@ const DailyCaloriesForm = ({
                 </div>
 
                 <button type="submit" className={styles.button}>
-                  Loose weight
+                  Lose weight
                 </button>
               </Form>
             )}
